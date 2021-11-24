@@ -1,9 +1,6 @@
 class CustomHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <a href=index.html>
-        <img src=#>
-      <a/>
       <nav>
         <ul>
           <li><a href=index.html>Home</a>
