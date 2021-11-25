@@ -1,0 +1,46 @@
+.listen_main{
+    width: 50%;
+    z-index: 10;
+}
+
+.listen_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listen_headline{
+    margin: 40px;
+    font-size: 50px;
+}
+
+.album_name{
+    font-size: 23px;
+}
+
+.cover_image img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.spotify_frame{
+    width: 40%;
+    height: 500px;
+    margin: 20px;
+}
+
+#listen_wrapper{
+    flex-direction: column;
+    position: relative;
+}
+
+#listen_body{
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
