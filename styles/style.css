@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 .nav_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,19 +9,27 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: black;
-  -webkit-box-shadow: 0px 3px 24px 0px #000000;
-          box-shadow: 0px 3px 24px 0px #000000;
+  background-color: #38686A;
+  -webkit-box-shadow: 0px 1px 20px 0px #38686A;
+          box-shadow: 0px 1px 20px 0px #38686A;
   margin-bottom: 60px;
+}
+
+.nav_list a {
+  color: white;
+}
+
+.nav_bar {
+  width: 100%;
 }
 
 .nav_link {
   list-style: none;
-  margin: 10px 40px;
+  margin: 20px 40px;
 }
 
 .brand_logo {
-  margin: 10px 40px;
+  margin: 20px 40px;
 }
 
 * {
@@ -28,10 +37,27 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #CDC6AE;
 }
 
 a {
   text-decoration: none;
-  color: white;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
