@@ -1,0 +1,28 @@
+.contact_section_img img{
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.contact_section_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+.name{
+  color: $font-color;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+
+.email{
+  font-size: $font-size;
+  color: $font-color;
+}
