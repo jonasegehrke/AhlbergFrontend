@@ -60,4 +60,63 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.listen_main {
+  width: 50%;
+  z-index: 10;
+}
+
+.listen_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.listen_headline {
+  margin: 40px;
+  font-size: 50px;
+}
+
+.album_name {
+  font-size: 23px;
+}
+
+.cover_image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.spotify_frame {
+  width: 40%;
+  height: 500px;
+  margin: 20px;
+}
+
+#listen_wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+#listen_body {
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */
