@@ -60,4 +60,34 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.fa {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #38686A;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.about-me h1 {
+  padding-bottom: 30px;
+}
+
+.about-me img {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+.icons {
+  font-size: 40px;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
 /*# sourceMappingURL=style.css.map */
