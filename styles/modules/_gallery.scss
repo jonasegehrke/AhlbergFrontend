@@ -1,0 +1,11 @@
+.gallery_section{
+    display: flex;
+    flex-direction: table-row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.instagram-media{
+    margin: 20px 20px !important;
+    flex: 50% !important;
+    width: 100px !important;
+}
