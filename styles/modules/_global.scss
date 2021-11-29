@@ -5,12 +5,19 @@
     font-family: $font;
 }
 body{
-    height: 100vh;
+    position: relative;
+    padding-bottom: 200px;
+    min-height: 100vh;
     background-color: $bg-color;
 }
 
 a{
     text-decoration: none;
+}
+
+.icons{
+    font-size: 40px;
+    text-align: center;
 }
 
 .wrapper{
