@@ -128,7 +128,9 @@
 .mobile_nav_link{
     transition: all .5s ease-in-out;
     opacity: 0;
+    display: none;
     .open &{
+        display: block;
         opacity: 1;
     }
     font-size: 1.4em;
