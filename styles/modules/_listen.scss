@@ -1,6 +1,5 @@
 .listen_main{
     width: 50%;
-    z-index: 10;
 }
 
 .listen_section{
@@ -19,15 +18,6 @@
     font-size: 23px;
 }
 
-.cover_image img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: 100%;
-    opacity: 0.5;
-}
-
 .spotify_frame{
     width: 40%;
     height: 500px;
@@ -36,6 +26,5 @@
 
 #listen_wrapper{
     flex-direction: column;
-    position: relative;
 }
 
