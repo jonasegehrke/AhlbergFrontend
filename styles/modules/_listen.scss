@@ -11,7 +11,8 @@
 
 .listen_headline{
     margin: 40px;
-    font-size: 50px;
+    font-size: 72px;
+    text-align: center;
 }
 
 .album_name{
@@ -19,7 +20,7 @@
 }
 
 .spotify_frame{
-    width: 40%;
+    width: 70%;
     height: 500px;
     margin: 20px;
 }
@@ -28,3 +29,26 @@
     flex-direction: column;
 }
 
+@media (max-width: 767.98px) {
+    .listen_headline{
+        font-size: 25px;
+    }
+    .listen_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .listen_main{
+        width: 100%;
+    }
+
+    .spotify_frame{
+        width: 70%;
+    }
+
+    .album_name{
+        font-size: 17px;
+    }
+}

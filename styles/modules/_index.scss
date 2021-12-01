@@ -27,3 +27,15 @@
     background-color: #A3B4A2;
     
 }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .text-card{
+        width: 80%;
+    }
+
+    .welcome-page h1{
+        font-size: 25px;
+        margin: 25px 0px;
+    }
+}
