@@ -9,3 +9,14 @@
     flex: 50% !important;
     width: 100px !important;
 }
+
+@media (max-width: 767.98px) {
+    .instagram-media{
+    margin: 2px !important;
+    }
+
+    .about-me{
+        font-size: 25px;
+        margin: 25px 0px;
+    }
+}

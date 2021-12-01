@@ -17,8 +17,9 @@ function showTableHeadlines() {
     row.insertCell(0).innerHTML = `Date`
     row.insertCell(1).innerHTML = `Time`
     row.insertCell(2).innerHTML = `City`
-    row.insertCell(3).innerHTML = `Price`
-    row.insertCell(4).innerHTML = `Buy Ticket`
+    row.insertCell(3).innerHTML = `Place`
+    row.insertCell(4).innerHTML = `Price`
+    row.insertCell(5).innerHTML = `Buy Ticket`
 }
 
 function addRow(respData) {
@@ -30,8 +31,9 @@ function addRow(respData) {
         row.insertCell(0).innerHTML = respData[i].date
         row.insertCell(1).innerHTML = respData[i].time
         row.insertCell(2).innerHTML = respData[i].city
-        row.insertCell(3).innerHTML = respData[i].ticketPrice
-        row.insertCell(4).innerHTML = `<a onclick="bookShow(this)"> <button type="button" class="btn btn-secondary">Book Ticket</button></a>`;
+        row.insertCell(3).innerHTML = respData[i].concertPlace
+        row.insertCell(4).innerHTML = respData[i].ticketPrice
+        row.insertCell(5).innerHTML = `<a onclick="bookShow(this)"> <button type="button" class="book_btn btn btn-secondary">Book Ticket</button></a>`;
 
     }
 }

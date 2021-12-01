@@ -1,6 +1,12 @@
 .contact_section_img img{
-  width: 400px;
-  margin-bottom: 40px;
+  width: 50%;
+  margin: 40px 0px;
+  border-radius:250px;
+}
+
+.contact_section_img{
+  display: flex;
+  justify-content: center;
 }
 
 .contact_section_info{
@@ -13,16 +19,40 @@
 .contact-container{
   display: flex;
   width: 100vw;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 
 .name{
   color: $font-color;
-  margin-bottom: 40px;
-  border-bottom: 2px solid black;
+  font-size: 72px;
 }
 
 .email{
   font-size: $font-size;
   color: $font-color;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 767.98px) {
+
+  .contact_section_info{
+    text-align: center;
+  }
+
+  .contact_section_img img{
+    width: 70%;
+
+  }
+
+  .name{
+    font-size: 25px;
+    margin: 25px 0px;
+  }
 }

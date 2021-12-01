@@ -7,8 +7,39 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .tours_headline{
+    font-size: 72px;
+    color: black;
     margin: 0px 0px 30px 0px;
+}
+
+@media (max-width: 767.98px) {
+    .tours_main{
+        width: 100%;
+    }
+    .tours_section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .table{
+        font-size: 10px;
+        
+    }
+
+    .book_btn{
+        font-size: 10px;
+    }
+
+    .tours_headline{
+        font-size: 25px;
+        margin: 25px 0px;
+    }
+
 }
