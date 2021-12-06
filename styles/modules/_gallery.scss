@@ -20,3 +20,10 @@
         margin: 25px 0px;
     }
 }
+
+.gallery-headline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: $font;
+}
