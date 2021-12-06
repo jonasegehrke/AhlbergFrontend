@@ -1,7 +1,7 @@
 class CustomHeader extends HTMLElement {
   connectedCallback() {
 
-    fetch("./header.html")
+    fetch("../header.html")
   .then(response => {
     return response.text()
   })
