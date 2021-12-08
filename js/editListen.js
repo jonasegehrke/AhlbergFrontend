@@ -47,10 +47,10 @@ if(listenSaveBtn){
 
 getListen();
 
-if(listenHeadline.typeOf == undefined){
+if(listenHeadline.typeOf === undefined){
     listenHeadline.innerHTML="Placeholder"
 }
 
-if(listenDescription.typeOf== undefined){
+if(listenDescription.typeOf === undefined){
     listenDescription.innerHTML="Placeholder"
 }

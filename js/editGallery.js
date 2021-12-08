@@ -46,6 +46,6 @@ gallerySaveBtn.addEventListener('click', () => {
 
 getGallery();
 
-if(galleryHeadline.typeOf == undefined){
+if(galleryHeadline.typeOf === undefined){
   galleryHeadline.innerHTML="Placeholder"
 }

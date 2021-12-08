@@ -52,9 +52,9 @@ aboutSaveBtn.addEventListener('click', () => {
 
 getAbout();
 
-if(aboutHeadline.typeOf == undefined){
+if(aboutHeadline.typeOf === undefined){
     aboutHeadline.innerHTML="Placeholder"
 }
-if(aboutDescription.typeOf == undefined){
+if(aboutDescription.typeOf === undefined){
     aboutDescription.innerHTML="Placeholder"
 }
