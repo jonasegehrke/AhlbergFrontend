@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
- 
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../styles/style.css">
     <script src="../js/login.js"></script>
 </head>
@@ -24,8 +24,28 @@
         <main class="tours_main">
             <section class="tours_section">
                 <h1 class="tours-headline" contenteditable="true"></h1>
-                <table class="table table-dark tours-table"></table>
-                
+                <table class="table table-dark tours-table"> </table>
+
+                <form class="new-tour-form">
+                    <div>
+                        Date: <input type="text" class="form-control date-input">
+                    </div>
+                    <div>
+                        Time:   <input type="text" class=" form-control time-input">
+                    </div>
+                    <div>
+                        City:   <input type="text" class="form-control city-input"> 
+                    </div>
+                    <div>
+                        Location:   <input type="text" class="form-control concert-place-input"> 
+                    </div>
+                    <div>
+                        Price:   <input type="number" class="form-control ticket-price-input"> 
+                    </div>
+
+                    <button type="button" class="new-tour-btn">Submit new tour</button>
+
+                </form>
             </section>
             <button class="tours-save-btn">Save</button>
 
@@ -34,19 +54,19 @@
     <script src="../js/customHeader.js"></script>
     <script src="../js/tour.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
     <footer>
-      <custom-footer></custom-footer>
+        <custom-footer></custom-footer>
     </footer>
-  
+
     <script type="module" src="../js/customHeader.js"></script>
     <script type="module" src="../js/customMobileHeader.js"></script>
     <script type="module" src="../js/customFooter.js"></script>
     <script src="../js/editTour.js"></script>
-    
 
-  </body>
+
+</body>
 
 </html>
