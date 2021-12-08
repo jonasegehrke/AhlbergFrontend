@@ -55,6 +55,6 @@ indexSaveBtn.addEventListener('click', () => {
 
 getIndex();
 
-if(indexHeadline.typeOf == undefined){
+if(indexHeadline.typeOf === undefined){
     indexHeadline.innerHTML="Placeholder"
 }

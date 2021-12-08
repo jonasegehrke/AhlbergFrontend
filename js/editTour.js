@@ -51,6 +51,6 @@ toursSaveBtn.addEventListener('click', () => {
 
 getTours();
 
-if(toursHeadline.typeOf == undefined){
+if(toursHeadline.typeOf === undefined){
     toursHeadline.innerHTML="Placeholder"
 }

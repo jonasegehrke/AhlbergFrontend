@@ -50,13 +50,13 @@ if(contactSaveBtn){
 
 getContact();
 
-if(contactHeadline.typeOf == undefined){
+if(contactHeadline.typeOf === undefined){
     contactHeadline.innerHTML="Placeholder"
 }
 
-if(contactDescription.typeOf== undefined){
+if(contactDescription.typeOf === undefined){
     contactDescription.innerHTML="Placeholder"
 }
-if(contactEmail.typeOf== undefined){
+if(contactEmail.typeOf === undefined){
     contactEmail.innerHTML="Placeholder"
 }
