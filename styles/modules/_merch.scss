@@ -1,0 +1,25 @@
+.merch-items{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.merch-card{
+    width: 25%;
+    background-color: rgba($color: #a3b4a2, $alpha: 0.5);
+    padding: 10px;
+    margin: 10px;
+    flex: 1 0 21%;
+    border-radius: 20px;
+
+}
+
+.item-image{
+    width: 100%;
+}
+
+.merch-headline{
+    text-align: center;
+}
