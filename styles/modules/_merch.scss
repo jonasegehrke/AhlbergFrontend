@@ -23,3 +23,23 @@
 .merch-headline{
     text-align: center;
 }
+
+.merch-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.new-merch-form{
+    width: 50%;
+}
+
+.item-id{
+    display: none;
+}
+
+.merch-delete-btn{
+    float: right;
+}
