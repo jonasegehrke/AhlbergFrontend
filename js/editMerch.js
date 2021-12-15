@@ -2,6 +2,7 @@ const apiURL = `http://localhost:8080`;
 const headlineInput = document.querySelector(".headline-input");
 const discriptionInput = document.querySelector(".discription-input");
 const newMerchBtn = document.querySelector(".new-merch-btn");
+const merchHeadline = document.querySelector(".merch-headline");
 
 
 async function newMerch(data) {
@@ -90,4 +91,5 @@ async function refresh() {
 setTimeout(function () {
     addDeleteBtns();
 }, 500)
+
 
