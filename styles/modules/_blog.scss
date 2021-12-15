@@ -1,0 +1,24 @@
+.blog_section_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    
+}
+.blog-card{
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba($color: #A3B4A2, $alpha: 1)
+}
+
+.blog-card-content{
+    padding: 40px;
+
+}
+
+.blog-card-headline{
+    padding-top: 20px;
+}
